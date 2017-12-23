@@ -2,7 +2,7 @@
   "name": "notes-application",
   "version": "1.0.0",
   "description": "",
-  "main": "\u001b[\u001b[C\u001b",
+  "main": "note-controller.js",
   "directories": {
     "test": "tests"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/etiennemustow/notes-application/issues"
   },
-  "homepage": "https://github.com/etiennemustow/notes-application#readme"
+  "homepage": "https://github.com/etiennemustow/notes-application#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
 }

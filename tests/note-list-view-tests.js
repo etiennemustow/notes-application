@@ -1,4 +1,3 @@
-(function(){
   function testNoteListViewDisplaysNote(){
     var note1 = {
       show: function(){ return "my first note"}
@@ -24,7 +23,7 @@
     };
 
     var notelistview = new NotelistView(notelist);
-    testText = "<ul><li><div></div></li></ul>"
+    testText = "<ul></ul>"
     assert.isTrue(notelistview.getHTML() === testText)
 
   }
@@ -43,4 +42,7 @@
     testText = "<ul><li><div>my first note</div></li></ul>"
     assert.isTrue(notelistview.getHTML() === testText)
   }
-})()
+
+testNoteListViewDisplaysNote()
+testNoteListViewDisplaysNoNote()
+testNoteListViewDisplaysOneNote()
