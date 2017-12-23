@@ -10,4 +10,6 @@
       this.notes.push(note)
     }
   }
+
+  exports.Notelist = Notelist;
 })(this)
